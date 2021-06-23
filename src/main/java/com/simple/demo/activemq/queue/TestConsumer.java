@@ -15,7 +15,7 @@ public class TestConsumer {
     }
 
     private void receiveMessage() {
-        ConnectionFactory factory = null;
+        ConnectionFactory factory = null ;
         Session session = null;
         MessageConsumer consumer = null;
         Destination destination = null;
